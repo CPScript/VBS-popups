@@ -1,4 +1,4 @@
-WScript.Sleep(29999)
-a=MsgBox("Running program", 2+16, "'CRY.exe' Says")
+WScript.Sleep(1)
+a=MsgBox("Your trying to run a Prgram, Would you like to Run this?", 3+48, "Warning!")
 
-CreateObject("Wscript.Shell").Run """C:\Windows\System32\notepad.exe""", 1, True
+CreateObject("Wscript.Shell").Run """This PC\Downloads\Annoying.txt""", 1, True

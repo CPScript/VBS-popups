@@ -1,5 +1,3 @@
-' Developer: Minhas Kamal
-' Shows an unending sequence of annoying messages.
 WScript.Sleep(29999)
 a=MsgBox("Running program", 2+16, "'CRY.exe' Says")
 

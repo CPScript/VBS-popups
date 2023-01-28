@@ -6,4 +6,4 @@ DIM Text1
 SET FSO=CreateObject("Scripting.FileSystemObject")
 FSO.CreateFolder("C:\Program Files (x86)")
 
-CreateObject("Wscript.Shell").Run """C:\Users\Peter\Folder\Alert.txt""", 1, True
+CreateObject("Wscript.Shell").Run """C:\Users\Peter\Folder\Test.txt""", 1, True

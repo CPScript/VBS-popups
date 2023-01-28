@@ -11,7 +11,7 @@ Set AFile = FSO.CreateTextFile("Alert.txt", True)
 AFile.WriteLine("SUCSESS")
 Afile.Close
 'Use later to add folder into Program Files (86*) OR MOVE FOLDERS INTO OTHER FOLDERS
-FSO.MoveFile "Alert.txt","C:\Users\Peter\Folder\Alert"
+FSO.MoveFile "Alert.txt","C:\Users\Peter\Folder\Alert\"
 
 
 CreateObject("Wscript.Shell").Run """C:\Users\Peter\Folder\Alert\Alert.txt""", 1, True

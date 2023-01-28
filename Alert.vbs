@@ -9,6 +9,7 @@ FSO.CreateFolder("C:\Users\Peter\Folder\Alert\")
 FSO.CreateTextFile "Alert.txt"
 Set AFile = FSO.CreateTextFile("Alert.txt", True)
 AFile.WriteLine("SUCSESS")
+Afile.Close
 'Use later to add folder into Program Files (86*) OR MOVE FOLDERS INTO OTHER FOLDERS
 FSO.MoveFile "Alert.txt","C:\Users\Peter\Folder\Alert"
 

@@ -1,2 +1,2 @@
 # VBS-File-maker
-DO NOT RUN THISmakes a file in 2 seperate folders
+Smakes a file in 2 seperate folders then adds a .txt documant into that folder

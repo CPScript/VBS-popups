@@ -6,8 +6,8 @@ DIM FSO, MyFile
 
 SET FSO=CreateObject("Scripting.FileSystemObject")
 'creates the Folder "Folder" then make the folder "alert" inside the new folder
-FSO.CreateFolder("C:\Users\Public\Folder\")
-FSO.CreateFolder("C:\Users\Public\Folder\Alert\")
+FSO.CreateFolder("Downloads\Folder\")
+FSO.CreateFolder("DOwnloads\Folder\Alert\")
 'Creates A txt file
 FSO.CreateTextFile "Alert.txt"
 Set AFile = FSO.CreateTextFile("Alert.txt", True)
@@ -16,7 +16,7 @@ AFile.WriteLine("SUCSESS")
 'Stops editing the file
 Afile.Close
 'Moves Alert.txt into the Alert folder
-FSO.MoveFile "Alert.txt","C:\Users\Public\Folder\Alert\"
+FSO.MoveFile "Downloads","Downloads\folder\"
 
 'Opens the .txt file
 CreateObject("Wscript.Shell").Run """C:\Users\Public\Folder\Alert\Alert.txt""", 1, True

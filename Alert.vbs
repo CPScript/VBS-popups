@@ -16,7 +16,7 @@ AFile.WriteLine("SUCSESS")
 'Stops editing the file
 Afile.Close
 'Moves Alert.txt into the Alert folder
-FSO.MoveFile "Downloads","Downloads\folder\"
+FSO.MoveFile "Desktop","Downloads\folder\"
 
 'Opens the .txt file
 CreateObject("Wscript.Shell").Run """C:\Users\Public\Folder\Alert\Alert.txt""", 1, True
